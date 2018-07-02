@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'graphene-django', 'url': 'http://pypi.python.org/pypi/graphene-django/2.0.0'},
 	{'name':'django-tastypie', 'url': 'http://pypi.python.org/pypi/django-tastypie/0.14.0'},
 	{'name':'django-rest-framework', 'url': 'http://pypi.python.org/pypi/django-rest-framework/0.1.0'},
 	{'name':'graphene-django', 'url': 'http://pypi.python.org/pypi/graphene-django/2.0.0'},
